@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(118,106,79);
+    color: #333;
+}
+
+.section {
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    border-bottom: 1px solid #ccc; 
+}
+
+.section:nth-child(odd) {
+    background-color: rgb(158, 137, 90);
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.image {
+    max-width: 20%;
+    flex: 2;
+}
+
+.image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 5rem;
+}
+
+.subtitle {
+    margin-bottom: 20px;
+}
+
+.button {
+    padding: 10px 50px;
+    background-color: rgb(190, 199, 63);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.button:hover {
+    background-color: #826c3b;
+}
+
+
+
+.dasa {max-width: 50%;
+    transform: translate(-130%, 20%);
+}
+
+.fasa {
+    transform: translate(450%, 150%);
+    opacity: 50%;
+}
+
+.dsada {
+    transform: translate(50%, 50%);
+}
+
+.dug {
+    transform: translate(1000%, 400%);
+}
+
+.jghj {
+    transform: translate(950%, 400%);
+}
+.цук {
+  transform: translate(-20%, -35%);
+}
+.poiop {
+  transform: translate(60%, -150%);
+}
+.qwee{
+  transform: translate(-50%, 100%);
+}
+.yrt{gap: 20%;
+  max-width: 25%;
+  transform: translate(10%, 0%);
+}
+.dse{gap: 20%;
+  max-width: 25%;
+  transform: translate(-50%, 0%);
+}
+.bvcx{padding: 10px 50px;
+background-color: rgb(190, 199, 63);
+color: rgb(0, 0, 0);
+border-radius: 20px;
+text-align: center;
+cursor: pointer;
+transform: translate(70%, -90%);
+}
